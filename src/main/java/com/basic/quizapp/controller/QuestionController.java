@@ -1,9 +1,8 @@
 package com.basic.quizapp.controller;
 
-import com.basic.quizapp.Questions;
+import com.basic.quizapp.model.Questions;
 import com.basic.quizapp.service.QuestionService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
